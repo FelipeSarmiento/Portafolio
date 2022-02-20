@@ -1,6 +1,6 @@
 const typed = new Typed('.typed', {
     strings: [
-        '<l class="uno">namespace</l><l class="dos"> App\Http\Livewire</l>; <br><br>' +
+        '<l class="uno">namespace</l><l class="dos"> Nav\Http\Livewire</l>; <br><br>' +
         '<l class="uno">use</l><l class="dos"> Livewire\Component</l>;<br><br>' +
         '<l class="uno">Class</l><l class="dos"> ShowUser</l><l class="uno"> extends </l><l class="dos">Component</l><br>' +
         '{<br>' +
