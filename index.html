@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeFel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/estilos.css">
+    <link rel="stylesheet" href="assets/prism.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-gray-900 to-gray-800">
+<!-- Menú Navegación -->
+<nav class="bg-gradient-to-r from-gray-900 to-gray-800 sticky top-0">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-24 text-white font-bold">
+            <div class="flex md:text-center items-center">
+                <div class="flex-shrink-0 hover:text-teal-300 text-4xl lg:text-5xl text-white font-bold">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="hidden sm:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+
+                        <a href="#" class="bg-teal-700 text-white px-3 py-2 rounded-md text-lg font-medium"
+                           aria-current="">Inicio</a>
+
+                        <a href="#servicios"
+                           class="text-gray-300 hover:bg-teal-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Servicios</a>
+
+                        <a href="#"
+                           class="text-gray-300 hover:bg-teal-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Proyectos</a>
+
+                        <a href="#"
+                           class="text-gray-300 hover:bg-teal-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Contactame</a>
+                    </div>
+                </div>
+            </div>
+            <div class="-mr-1 flex sm:hidden">
+                <!-- Mobile menu button -->
+                <button onclick="MostrarOcultarMenuMobil()" type="button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sm:hidden" id="mobile-menu" hidden>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+
+            <a href="#" class="bg-teal-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+               aria-current="page">Inicio</a>
+
+            <a href="#"
+               class="text-gray-300 hover:bg-teal-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
+
+            <a href="#"
+               class="text-gray-300 hover:bg-teal-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Proyectos</a>
+
+            <a href="#"
+               class="text-gray-300 hover:bg-teal-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contactame</a>
+
+        </div>
+
+    </div>
+</nav>
+<!-- Fin Menú Navegación -->
+<!-- Banner Principal -->
+<div class="container pl-4 pr-4 divide-y-2 contenedor flex lg:items-center flex mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 text-left text-white gap-6">
+        <div class="text-teal-300 font-bold text-4xl text-center lg:text-left lg:text-6xl flex items-center lg:pl-10 lg:leading-snug">
+            <h1>Expresa tus ideas o expande tu negocio a través de un sitio web</h1>
+        </div>
+        <div class="w-full carbon select-none border-2 border-teal-600 rounded-lg items-center text-left pl-3 pr-3">
+            <div class="tracking-widest mt-2">
+                <span class="text-red-500"><i class="fa-solid fa-circle"></i></span>
+                <span class="text-yellow-400"><i class="fa-solid fa-circle"></i></span>
+                <span class="text-green-400"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="mt-2">
+                <h1><span class="typed"></span></h1></code></pre>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin Banner Principal -->
+<!-- Banner Servicios -->
+<div id="servicios" class="mx-auto mt-3">
+    <div class="text-teal-300 font-bold text-4xl mt-5">
+        <h1>Servicios</h1>
+    </div>
+    <div class="text-white text-2xl text-justify mt-5">
+        <p>Quizas tengas una marca o negocio que te gustaria hacer crecer. ¿Qué mejor manéra de hacerlo, sino es través
+            de un sitio web?, el alcance que lograras al posicionar tu marca en internet, ¡será exponencial!, clientes
+            internacionales, ventas sin limites, personalización al 100%, todo como lo necesitas.</p>
+        <br>
+        <p>Pero no necesariamente necesitas tener una marca o negocio, hay muchos motivos más, para empezar con un sitio
+            web!... ¿Eres creador de contenido y quieres mostrarle al mundo todo tu trabajo? La mejor opción es con tu
+            propia página web, ¿o te dedicas a ventas de articulos y necesitas un sitio web para poder realizar el
+            proceso de venta con tus clientes? Nosotros nos encargamos de ello, sin importar lo que necesites, nosotros
+            lo desarrollamos.</p>
+        <br>
+        <p>Una vez dicho esto, quiero mostrarte todos los <span class="text-teal-300">servicios</span> que te podemos
+            ofrecer:</p>
+    </div>
+</div>
+<div class="container mx-auto">
+    <div class="grid grid-cols-2 mt-16">
+        <div class="text-orange-500 font-bold text-center text-5xl mr-5">
+            <h1>JavaScript</h1>
+            <h1 class="text-white text-2xl text-justify mt-20 leading-normal">Con el manejo de JavaScript en
+                CodeFel, podemos ofrecerte un sitio web con una gran interactividad y un proceso de backend, que le
+                permitirá al usuario, tener una experiencia más óptima al momento de ingresar a tu página.</h1>
+        </div>
+        <div class="w-full carbon2 select-none border-2 border-orange-600 rounded-lg items-center text-left pl-3 pr-3 ml-5">
+            <div class="tracking-widest mt-2">
+                <span class="text-red-500"><i class="fa-solid fa-circle"></i></span>
+                <span class="text-yellow-400"><i class="fa-solid fa-circle"></i></span>
+                <span class="text-green-400"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="mt-2 text-white">
+                <h1><span class="typed2"></span></h1></code></pre>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mx-auto">
+    <div class="grid grid-cols-2 mt-16">
+        <div class="w-full carbon2 select-none border-2 border-purple-600 rounded-lg items-center text-left pl-3 mr-5">
+            <div class="tracking-widest mt-2">
+                <span class="text-red-500"><i class="fa-solid fa-circle"></i></span>
+                <span class="text-yellow-400"><i class="fa-solid fa-circle"></i></span>
+                <span class="text-green-400"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="mt-2 text-white">
+                <h1><span class="typed2"></span></h1></code></pre>
+            </div>
+        </div>
+        <div class="text-purple-500 font-bold text-center text-5xl ml-5">
+            <h1>PHP</h1>
+            <h1 class="text-white text-2xl text-justify mt-5 leading-normal">En CodeFel, le brindamos la oportunidad a
+                nuestros clientes de implementar en sus proyectos, un lenguaje de programación de alto nivel, como lo es
+                <i>PHP</i>, ¿y cuales son las ventajas de implementar un lenguaje de programación en nuestro sitio web?
+                Son muchas, la principal, es ampliar las funcionalidades y el alcance que puedes lograr, permitiendole a
+                tus usuarios, realizar acciones como registrarse o iniciar sesión, guardar información en bases de , o
+                llevar estadisticas de tus clientes</h1>
+        </div>
+    </div>
+</div>
+<!-- Fin Banner Servicios -->
+<!-- Script Personalizado -->
+<script>
+    let abierto = false;
+
+    function MostrarOcultarMenuMobil() {
+        if (abierto === false) {
+            document.getElementById("mobile-menu").removeAttribute("hidden")
+            abierto = true;
+        } else {
+            document.getElementById("mobile-menu").setAttribute("hidden", "")
+            abierto = false;
+        }
+    }
+</script>
+<!-- Fin Script Personalizado -->
+<!-- Script Prism JS -->
+<script src="assets/prism.js"></script>
+<!-- Fin Script Prism JS -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

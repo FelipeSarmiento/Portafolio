@@ -1,0 +1,25 @@
+.contenedor {
+    height: 90vh;
+    border-bottom: 1px solid gray;
+}
+.carbon {
+    min-height: 400px;
+}
+.carbon2 {
+    min-height: 370px;
+}
+.uno {
+    color: #5eead4;
+}
+.dos {
+    color: #91ff27;
+}
+.tres {
+    color: #f92672;
+}
+.cuatro {
+    color: #66d9ef;
+}
+.cinco {
+
+}
