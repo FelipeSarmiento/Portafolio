@@ -50,9 +50,8 @@ const typed3 = new Typed('.typed3', {
         '<l class="uno">&lt?php</l><br><l class="dos"> session_start()</l> ;<br><br>' +
         '<l class="dos">if</l> ( <l class="tres"> $_SESSION </l>[ <l class="cuatro">"type"</l> ] == <l class="tres">1</l>) {<br><br>' +
         '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="dos">header</l> ( <l class="cuatro">"location: views/user/index.php"</l> );<br> } <br>' +
-        '<l class="uno">&lt?php</l><br><l class="dos"> session_start()</l> ;<br><br>' +
         '<l class="dos">if</l> ( <l class="tres"> $_SESSION </l>[ <l class="cuatro">"type"</l> ] == <l class="tres">2</l>) {<br><br>' +
-        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="dos">header</l> ( <l class="cuatro">"location: views/admin/index.php"</l> );<br> } <br>'
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="dos">header</l> ( <l class="cuatro">"location: views/admin/index.php"</l> );<br><br> }'
     ],
     typeSpeed: 30,
     StartDelay: 1000,
