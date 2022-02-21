@@ -1,4 +1,4 @@
-const typed = new Typed('.typed', {
+const typed1 = new Typed('.typed1', {
     strings: [
         '<l class="uno">namespace</l><l class="dos"> Nav\Http\Livewire</l>; <br><br>' +
         '<l class="uno">use</l><l class="dos"> Livewire\Component</l>;<br><br>' +
@@ -33,6 +33,45 @@ const typed2 = new Typed('.typed2', {
         '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="tres">alert </l>( <l class="cuatro">"Bienvenido "</l> + nombre + <l class="cuatro">", nos encantaria conocer tu opinión, porfa <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contactate con nosotros."</l> );<br>' +
         '}<br>' +
         '}'
+    ],
+    typeSpeed: 30,
+    StartDelay: 1000,
+    smartBackspace: true,
+    shuffle: false,
+    backDelay: 2000,
+    loop: true,
+    loopCount: false,
+    showCursor: true,
+    cursorChar: '|',
+    contentType: 'html',
+});
+const typed3 = new Typed('.typed3', {
+    strings: [
+        '<l class="uno">&lt?php</l><br><l class="dos"> session_start()</l> ;<br><br>' +
+        '<l class="dos">if</l> ( <l class="tres"> $_SESSION </l>[ <l class="cuatro">"type"</l> ] == <l class="tres">1</l>) {<br><br>' +
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="dos">header</l> ( <l class="cuatro">"location: views/user/index.php"</l> );<br> } <br>' +
+        '<l class="uno">&lt?php</l><br><l class="dos"> session_start()</l> ;<br><br>' +
+        '<l class="dos">if</l> ( <l class="tres"> $_SESSION </l>[ <l class="cuatro">"type"</l> ] == <l class="tres">2</l>) {<br><br>' +
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="dos">header</l> ( <l class="cuatro">"location: views/admin/index.php"</l> );<br> } <br>'
+    ],
+    typeSpeed: 30,
+    StartDelay: 1000,
+    smartBackspace: true,
+    shuffle: false,
+    backDelay: 2000,
+    loop: true,
+    loopCount: false,
+    showCursor: true,
+    cursorChar: '|',
+    contentType: 'html',
+});
+const typed4 = new Typed('.typed4', {
+    strings: [
+        '<l class="uno">&lt?php</l><br><l class="dos"> session_start()</l> ;<br><br>' +
+        '<l class="dos">if</l> ( <l class="tres"> $_SESSION </l>[ <l class="cuatro">"type"</l> ] == <l class="tres">1</l>) {<br><br>' +
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="dos">header</l> ( <l class="cuatro">"location: views/user/index.php"</l> );<br> } <br>' +
+        '<l class="dos">if</l> ( <l class="tres"> $_SESSION </l>[ <l class="cuatro">"type"</l> ] == <l class="tres">2</l>) {<br><br>' +
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<l class="dos">header</l> ( <l class="cuatro">"location: views/admin/index.php"</l> );<br><br> }'
     ],
     typeSpeed: 30,
     StartDelay: 1000,
